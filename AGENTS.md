@@ -12,3 +12,5 @@
 - A base oficial é `cards.json`, importada do catálogo completo do usuário (138 cartas nesta revisão). Use `code` (m/s/t) como identidade em alterações futuras; nomes podem mudar. Preserve os IDs numéricos de arte já existentes. Após editar a base, execute `python3 tools/sync-cards.py` e verifique o motor de efeitos correspondente. Monstros normais devem ter `effect:false`; não reative efeitos removidos pelo usuário.
 - Para alterações de cartas/regras, execute `node tests/catalog.cjs` e `node tests/catalog-ui.cjs` com Playwright/Chromium disponíveis. A carta m74 tem uma exceção de orçamento explicitamente preservada: ATK 300/DEF 600, como no documento.
 - Quando um documento do usuário deixar um monstro sem efeito, trate-o como normal (`effect:false`), usando os valores da tabela de normais quando fornecidos. Não preserve uma habilidade antiga por causa do código da carta.
+
+- Direção visual das ilustrações: anime clássico simples, contornos grossos, cores chapadas, poucas sombras e fundos com poucos elementos. Evite microdetalhes, texturas realistas e acabamento de fantasia hiper detalhado. Preserve a leitura das artes na mão do celular.
