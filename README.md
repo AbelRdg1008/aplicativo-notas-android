@@ -33,3 +33,8 @@ O botão **Avançar esta etapa**, ou um toque numa apresentação de carta, avan
 Validação no Chromium: 24 verificações da ordem visual e dos resultados; ritmo real com bloqueio de toques, avanço de etapa e movimento reduzido; duas partidas completas usando a fila real de animações, além das 163 verificações de regras/efeitos e 12 partidas simuladas. Sem erros de JavaScript. Scripts de verificação desta sessão: `/workspace/scratch/animation-check.cjs` e `/workspace/scratch/animation-duels.cjs`. Safari físico segue a validar.
 
 A tela inicial mostra **RELÍQUIAS · ANIMAÇÕES GUIADAS · 02**. Link após sincronizar o fork e concluir o Pages: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-2
+
+
+## Cartas compactas (`reliquias-3`)
+
+As cartas pequenas na mão, no campo e na coleção mostram a ilustração e os valores ATK/DEF dos monstros, sem bloco de descrição. A descrição permanece na carta ampliada e no painel de detalhes. A área liberada aumenta a janela da arte. Nenhuma regra ou valor foi alterado.
