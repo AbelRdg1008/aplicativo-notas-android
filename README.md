@@ -64,3 +64,8 @@ Abertura do duelo, distribuição e troca de turno mantêm a mesa visível. Avis
 A abertura mostra **RELÍQUIAS · CAMPO CONTÍNUO · 05**. Link após sincronização e publicação: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-5
 
 Validação desta edição no Chromium: fundo transparente e ausência de desfoque na apresentação de cartas, carta completa na invocação, campo visível durante início/troca de turno, fase atualizada antes do aviso, avanço de etapa e limpeza dos efeitos, controles por toque e duas partidas completas com a fila de animações.
+
+
+## Versão visível (`reliquias-6`)
+
+A tela inicial tem um selo de versão destacado. A constante `GAME_VERSION` centraliza o número e gera o identificador de build, o título e os textos visíveis. A versão desta entrega é **06**; cada próxima entrega visual/funcional deve incrementar esse número. Link desta versão após publicação: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-6
