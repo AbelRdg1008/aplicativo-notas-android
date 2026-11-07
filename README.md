@@ -38,3 +38,20 @@ A tela inicial mostra **RELÍQUIAS · ANIMAÇÕES GUIADAS · 02**. Link após si
 ## Cartas compactas (`reliquias-3`)
 
 As cartas pequenas na mão, no campo e na coleção mostram a ilustração e os valores ATK/DEF dos monstros, sem bloco de descrição. A descrição permanece na carta ampliada e no painel de detalhes. A área liberada aumenta a janela da arte. Nenhuma regra ou valor foi alterado.
+
+
+## Interface móvel (`reliquias-4`)
+
+Painéis com acabamento de vidro escuro, bordas douradas e cantos arredondados, inspirados em seletores do iPhone. Ações de carta têm alvos de pelo menos 52 px; fechar, ajuda e navegação usam alvos de pelo menos 44 px. O controle de turno tem uma linha própria de 56 px, calculada antes do campo e da mão. O dimensionamento acompanha o viewport visual e funciona também em rotação. O avanço de animação foi separado da faixa de controles.
+
+Cartas pequenas usam uma grade idêntica para título, faixa de tipo/nível, janela de arte, rodapé e número de coleção. Monstros têm ATK/DEF no rodapé; magias e armadilhas têm símbolos originais próprios na mesma faixa. Descrições ficam só nas cartas ampliadas. A visualização isolada de ilustrações foi removida; invocações e ataques sempre apresentam a carta inteira. O HUD não exibe o rótulo Pontos de Vida; Mão, Deck e Cemitério usam a mesma tipografia.
+
+Os círculos giratórios foram removidos. A destruição usa chamas em canvas de baixa resolução com pixels visíveis e preserva a ordem dos acontecimentos. As 125 cenas foram reamostradas para sprites pequenos, com acabamento inspirado em consoles de 32 bits; o HTML caiu de cerca de 6,6 MB para cerca de 2,3 MB sem dependências externas. Movimento reduzido continua respeitado.
+
+Cada deck tem 40 cartas: 24–28 monstros e 12–16 magias/armadilhas; dentro dessas últimas, 4–6 são armadilhas. A quantidade de monstros de nível baixo predomina. Como o total continua sendo 40, o mínimo compatível com no máximo 16 cartas de suporte é 24 monstros.
+
+Toda saída de ação limpa efeitos e libera o bloqueio de interação. Uma falha inesperada oferece reinício do duelo em um painel funcional; não retorna a um turno do computador travado. Duelo interrompido não acrescenta derrota ao placar.
+
+Validação no Chromium: 200 decks em todos os cinco totais possíveis, alinhamento das artes e ícones, descrição apenas ampliada, recuperação de falhas no turno do jogador e do Oráculo, invocação de carta inteira, ausência dos círculos, fogo pixelado real e limpeza do efeito; controles acessíveis em 320×568, 375×667, 390×664, 430×932 e 932×430. Testada a transição batalha → armadilha que encerra batalha → turno do Oráculo → próxima batalha. Também passaram as 163 verificações de regras, 24 verificações de ordem visual, 12 partidas simuladas e duas partidas completas com a fila real de animações. Safari físico permanece a validar.
+
+A abertura mostra **RELÍQUIAS · INTERFACE MÓVEL · 04**. Após sincronizar e publicar o Pages: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-4
