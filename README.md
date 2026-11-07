@@ -55,3 +55,12 @@ Toda saída de ação limpa efeitos e libera o bloqueio de interação. Uma falh
 Validação no Chromium: 200 decks em todos os cinco totais possíveis, alinhamento das artes e ícones, descrição apenas ampliada, recuperação de falhas no turno do jogador e do Oráculo, invocação de carta inteira, ausência dos círculos, fogo pixelado real e limpeza do efeito; controles acessíveis em 320×568, 375×667, 390×664, 430×932 e 932×430. Testada a transição batalha → armadilha que encerra batalha → turno do Oráculo → próxima batalha. Também passaram as 163 verificações de regras, 24 verificações de ordem visual, 12 partidas simuladas e duas partidas completas com a fila real de animações. Safari físico permanece a validar.
 
 A abertura mostra **RELÍQUIAS · INTERFACE MÓVEL · 04**. Após sincronizar e publicar o Pages: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-4
+
+
+## Campo contínuo (`reliquias-5`)
+
+Abertura do duelo, distribuição e troca de turno mantêm a mesa visível. Avisos de turno usam apenas uma faixa flutuante. Invocação, magias, armadilhas, revelações e declaração de ataque mostram cartas inteiras sobre o campo, com fundo totalmente transparente na camada de apresentação. Somente os cartões de texto têm um fundo próprio para leitura; não há imagem roxa, escurecimento nem desfoque de tela inteira durante as jogadas. O estado da fase é atualizado antes do aviso de turno. Seleções e menus continuam usando os painéis interativos.
+
+A abertura mostra **RELÍQUIAS · CAMPO CONTÍNUO · 05**. Link após sincronização e publicação: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-5
+
+Validação desta edição no Chromium: fundo transparente e ausência de desfoque na apresentação de cartas, carta completa na invocação, campo visível durante início/troca de turno, fase atualizada antes do aviso, avanço de etapa e limpeza dos efeitos, controles por toque e duas partidas completas com a fila de animações.
