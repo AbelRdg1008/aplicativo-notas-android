@@ -69,3 +69,8 @@ Validação desta edição no Chromium: fundo transparente e ausência de desfoq
 ## Versão visível (`reliquias-6`)
 
 A tela inicial tem um selo de versão destacado. A constante `GAME_VERSION` centraliza o número e gera o identificador de build, o título e os textos visíveis. A versão desta entrega é **06**; cada próxima entrega visual/funcional deve incrementar esse número. Link desta versão após publicação: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-6
+
+
+## Numeração simples — Arcana Versão 1
+
+Por pedido do usuário, a numeração foi reiniciada em 1. O título e a abertura mostram **Arcana Versão 1**, sem nomes de edição nem zero à esquerda. Próximas atualizações: 2, 3, etc. O identificador técnico é `arcana-N`, gerado pela constante `GAME_VERSION`. Link após publicação: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=arcana-1
