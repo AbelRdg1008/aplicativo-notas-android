@@ -6,3 +6,5 @@
 - Verifique se o selo e todos os botões da tela inicial cabem no iPhone em 320×568 e 390×664.
 - Sempre termine cada resposta de atualização com DOIS links: **Atualizar o fork** (`https://github.com/AbelRdg1008/aplicativo-notas-android`, para Sync fork → Update branch) e **Testar Arcana Versão N** (`https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=arcana-N`). Use o número real da entrega e informe se a sincronização/publicação ainda está pendente.
 - Diferencie atualização enviada à origem, sincronização da cópia e deploy do Pages. Não diga que a versão está no site sem confirmação. Caso a cópia precise de Sync fork, informe isso claramente; para evitar abertura no app GitHub, forneça o endereço do repositório como texto para copiar ao navegador.
+
+- Formato obrigatório dos dois endereços finais: blocos de código separados para copiar, sem links Markdown clicáveis. O iPhone abre links do GitHub no aplicativo; instrua colar o primeiro endereço na barra do Chrome e usar Sync fork → Update branch.
