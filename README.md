@@ -22,3 +22,14 @@ Apresentação de console antigo: abertura de templo sob raios violetas, menus v
 Validação: controles por toque, menus de rival e regras, proporção de tela, alvos no tabuleiro transformado em 320×568, 390×664 e 430×932, animação de invocação e pulo por toque, telas de vitória/derrota, 163 verificações de regras/efeitos e 12 duelos completos. Sem erros de JavaScript no Chromium. Safari físico permanece a validar.
 
 A tela inicial mostra **RELÍQUIAS DO DUELO** e o rodapé **EDIÇÃO RELÍQUIAS · 01**. Para testar esta edição, use https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-1 após sincronizar o fork e concluir o deploy do Pages.
+
+
+## Animações guiadas (`reliquias-2`)
+
+Ataques têm declaração com as duas cartas e valores, etapa de resposta, revelação do defensor quando necessário, deslocamento até o alvo, destruição, PV com contagem gradual e resultado com cálculo ATK × ATK/DEF. Uma armadilha que anula o ataque interrompe a sequência antes do impacto. Efeitos de magias e armadilhas são resolvidos em ordem, com compra, entrada de cartas, tributos e mudanças de atributos/posição mostrados no campo. O Oráculo espera essas consequências terminarem antes da ação seguinte e não baixa cartas após encerrar o duelo.
+
+O botão **Avançar esta etapa**, ou um toque numa apresentação de carta, avança só a etapa atual. O menu **Ritmo das animações** oferece Guiado (padrão) e Ágil; a preferência fica salva quando o navegador permite. Movimento reduzido evita deslocamentos sem reduzir o tempo para ler o resultado. Os controles permanecem bloqueados até a sequência terminar.
+
+Validação no Chromium: 24 verificações da ordem visual e dos resultados; ritmo real com bloqueio de toques, avanço de etapa e movimento reduzido; duas partidas completas usando a fila real de animações, além das 163 verificações de regras/efeitos e 12 partidas simuladas. Sem erros de JavaScript. Scripts de verificação desta sessão: `/workspace/scratch/animation-check.cjs` e `/workspace/scratch/animation-duels.cjs`. Safari físico segue a validar.
+
+A tela inicial mostra **RELÍQUIAS · ANIMAÇÕES GUIADAS · 02**. Link após sincronizar o fork e concluir o Pages: https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-2
