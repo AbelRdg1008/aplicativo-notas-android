@@ -13,3 +13,12 @@ Fontes locais mantêm o arquivo independente de Google Fonts.
 Validação: Chromium com viewport móvel 390×664, testes isolados dos 53 efeitos de magias/armadilhas, cálculos de batalha, esgotamento de deck, 12 duelos completos e interação por toque (invocação, seleção de alvo, baixar armadilha, turno do Oráculo e abas da coleção). Scripts e captura da validação estão em `/workspace/scratch/arena-tests` nesta máquina. A instalação do WebKit foi bloqueada pela política de rede; teste num iPhone físico ainda é necessário. A revisão visual também foi validada em 320×568, 375×667, 390×664, 430×932 e 820×1180, com controles visíveis e sem transbordamento. O HTML contém todas as imagens e não as baixa de serviços externos durante o jogo.
 
 A identificação `anime-1` está na meta `arena-version` e a tela inicial mostra **Obsidiana · Edição Anime**. Para verificar uma atualização sem reaproveitar a página antiga, abra o endereço com `?v=anime-1`.
+
+
+## Relíquias do Duelo (`reliquias-1`)
+
+Apresentação de console antigo: abertura de templo sob raios violetas, menus verticais com seleção dourada, tabuleiro de pedra em perspectiva CSS, cartas amarelas com estrelas vermelhas, retrato original do Oráculo, palco de invocação e telas de vitória/derrota ilustradas. As 125 cenas originais de anime continuam na coleção, com apresentação e tratamento de cor retro. Regras e composição dos decks permanecem as mesmas; esta edição não acrescenta fusão, campanha, loja ou edição manual de deck.
+
+Validação: controles por toque, menus de rival e regras, proporção de tela, alvos no tabuleiro transformado em 320×568, 390×664 e 430×932, animação de invocação e pulo por toque, telas de vitória/derrota, 163 verificações de regras/efeitos e 12 duelos completos. Sem erros de JavaScript no Chromium. Safari físico permanece a validar.
+
+A tela inicial mostra **RELÍQUIAS DO DUELO** e o rodapé **EDIÇÃO RELÍQUIAS · 01**. Para testar esta edição, use https://abelrdg1008.github.io/aplicativo-notas-android/index.html?v=reliquias-1 após sincronizar o fork e concluir o deploy do Pages.
